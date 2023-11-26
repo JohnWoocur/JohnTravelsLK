@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Default Package From</title>
+
+    <link rel="stylesheet" href="../css/defaultform.css">
+   
+    <script src="https://kit.fontawesome.com/6a25b0c4dc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="hero">
+        <form>
+            <div class="formhead">
+                <h2>
+                    Default Package Form
+                </h2>
+
+            </div>
+            
+                <div class="form-box">
+                <input type="text" id=" title" required>
+                <label for="title">   <i class="fa-solid fa-pen-to-square"></i> Package Name</label>
+                </div>
+                <div class="row">
+                    <div class="form-box">
+                        <input type="text" id=" day" required>
+                        <label for="day">   <i class="fa fa-sun"></i> Day</label>
+                    </div>
+                    <br><br>
+                    <div class="form-box">
+                        <input type="text" id="night" required>
+                        <label for="night">   <i class="fa fa-moon"></i> Night</label>
+                    </div>
+                </div>
+
+                <div class="form-box">
+                    <input type="date" id="date" required>
+                    <label for="date"><i class="fa-solid fa-calendar-days"></i> Start Date</label>
+                    </div>
+                    <div class="form-box">
+                      <input type="date" id="enddate" required>
+                        <label for="date"><i class="fa-solid fa-calendar-days"></i> End Date</label>
+                        </div>
+
+                        <div class="form-box">
+                            <input type="text" id="Trip-type" required>
+                            <label for="Ttype">  <i class="fa fa-filter"></i> Activities</label>
+                            </div>
+                            <div class="form-box">
+                                <textarea id="message" rows="3"> </textarea>
+                                <label for="text"> <i class="fa-sharp fa-regular fa-envelope"></i> Description</label>
+                            </div>
+
+                            <div class="form-box">
+                                <input type="text" id="Trip-Price" required>
+                                <label for="Tprice">  <i class="fa fa-money"></i> Trip Price</label>
+                                </div>
+
+                <div class="form-box">
+                <input type="text" id="locaton" required>
+                <label for="location">  <i class="fa-solid fa-location-dot"></i>Pickup Location</label>
+                </div>
+
+         <div class="list" style="width:600px">        
+        <select name="Food" id="Food">
+            <option value="need">Food</option>
+            <option value="need">Need</option>
+            <option value="not need">not Need</option>
+        </select>
+        
+        <select name="Hotel" id="Hotel">
+            <option value="need">Select Hotel</option>
+            <option value="need">Need</option>
+            <option value="not need">not Need</option>
+        </select>
+        
+        <select name="Guide" id="Guide">
+            <option value="need">Select Guide</option>
+            <option value="need">Need</option>
+            <option value="not need">not Need</option>
+            </select>
+                    
+         </div>
+
+            
+            <div class="form-box">
+                <div class="im">
+                    <input type="file" id="image" accept=",.jpg , .jpeg , .png , .webp" required>
+                    <label for="image">  <i class="fa-sharp fa-regular fa-image"></i>image</label>
+                </div>
+                </div>
+            <div class="addbtn">
+                <button type="submit">ADD
+
+                </button>
+            </div>
+
+             
+        </form>
+
+        
+    </div>
+
+    
+</body>
+</html>
