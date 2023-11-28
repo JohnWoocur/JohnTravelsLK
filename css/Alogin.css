@@ -8,15 +8,15 @@ box-sizing: border-box;
 }
 @font-face {
     font-family: "Dongle-light";
-    src: url("../css/Dongle/Dongle-Light.ttf");
+    src: url("Dongle/Dongle-Light.ttf");
 }
 @font-face {
     font-family: "Dongle-regular";
-    src: url("../css/Dongle/Dongle-Regular.ttf");
+    src: url("Dongle/Dongle-Regular.ttf");
 }
 @font-face {
     font-family: "Dongle-bold";
-    src: url("../css/Dongle/Dongle-Bold.ttf");
+    src: url("Dongle/Dongle-Bold.ttf");
 }
 
 .hero{
